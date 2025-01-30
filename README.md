@@ -1,0 +1,2 @@
+# Inefficient Haskell Sort
+This repository demonstrates an example of inefficient sorting in Haskell using `Data.List.sort`.  The provided code uses `Data.List.sort`, which has a time complexity of O(n log n) and is not optimal for nearly sorted data. A solution is provided that shows how to potentially improve efficiency by considering the input characteristics.  The solution isn't a one-size-fits-all solution; the best approach depends on the data.
